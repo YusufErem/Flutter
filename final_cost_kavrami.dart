@@ -15,3 +15,7 @@ void main(List<String> args) {
       4); // eklenmis gibi gozukuyor fakat eklenmiyor cunki const ta sadece bir kere tanitiriz ve o hali ile kalir
   // fakat final de farkli onda ekleyip cikarabiliriz
 }
+
+void tear() {
+  print('tear');
+}
